@@ -22,7 +22,7 @@ public class PreInitilasition {
 	public void landingaPage() throws InterruptedException
 	{
 		
-		landingPage.login();
+		System.out.println("Pre condition are already taken care in Setup in hooks");
 	}
 
 	@Given("^Enter UserName <username> and Password <password>$")
